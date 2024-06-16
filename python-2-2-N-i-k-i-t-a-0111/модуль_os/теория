@@ -1,0 +1,17 @@
+import os 
+
+os.path('hoome', 'user', 'Desktop', 'file.txt')
+
+dir = 'home/user/Desktop'
+os.path.join(dir, 'file.txt')
+
+os.path.exists(dir + 'tasks.py')  # Проверка наличия 
+
+os.path.isfile('tasks.py')   # Является 
+
+os.path.isdir('__pycache__')
+
+os.listdir()
+
+os.environ.get('USER'), os.environ.get('USERNAME')
+
